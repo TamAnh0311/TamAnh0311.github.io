@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anthony Vu — Tech Lead & Senior Engineer | Hanoi</title>
+  <title>Anthony Vu — Hire a Tech Lead & Senior Full-Stack Engineer | Remote & Hanoi</title>
 
   <!-- Primary SEO -->
-  <meta name="description" content="Anthony Vu is a Tech Lead and senior full-stack engineer based in Hanoi, Vietnam with 8+ years of experience. Specialising in full-stack development, backend systems, AI integration, automation testing, and DevOps. Open to full-time, part-time, remote, and contractor opportunities." />
-  <meta name="keywords" content="Anthony Vu, software engineer, web developer, full-stack, Hanoi, Vietnam, React, Node.js, TypeScript" />
+  <meta name="description" content="Hire Anthony Vu — Tech Lead and senior full-stack engineer with 8+ years of experience. Available for full-time, part-time, remote, and contract roles. Expert in React, Node.js, TypeScript, Python, AI integration, DevOps, and team leadership. Based in Hanoi, Vietnam. Open to work worldwide." />
+  <meta name="keywords" content="hire software engineer, hire full-stack developer, hire tech lead, hire developer Vietnam, remote software engineer for hire, Anthony Vu, freelance developer, contract developer, React developer for hire, Node.js developer, TypeScript engineer, AI integration developer, DevOps engineer, senior developer Hanoi" />
   <meta name="author" content="Anthony Vu" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://tamanhvu.dev/" />
 
   <!-- Open Graph (Facebook, LinkedIn, etc.) -->
-  <meta property="og:type"        content="website" />
+  <meta property="og:type"        content="profile" />
   <meta property="og:url"         content="https://tamanhvu.dev/" />
-  <meta property="og:title"       content="Anthony Vu — Tech Lead & Senior Engineer" />
-  <meta property="og:description" content="Tech Lead & senior full-stack engineer based in Hanoi. 8+ years across full-stack, AI integration, automation testing, and DevOps." />
+  <meta property="og:title"       content="Hire Anthony Vu — Tech Lead & Senior Full-Stack Engineer" />
+  <meta property="og:description" content="Available for hire: Tech Lead & senior full-stack engineer with 8+ years across React, Node.js, AI integration, automation, and DevOps. Open to remote, full-time, part-time, and contract work worldwide." />
   <meta property="og:image"       content="https://tamanhvu.dev/og-image.png" />
   <meta property="og:locale"      content="en_US" />
-  <meta property="og:site_name"   content="Anthony Vu Portfolio" />
+  <meta property="og:site_name"   content="Anthony Vu — Available for Hire" />
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="Anthony Vu — Tech Lead & Senior Engineer" />
-  <meta name="twitter:description" content="Tech Lead & senior full-stack engineer based in Hanoi. 8+ years across full-stack, AI, automation, and DevOps." />
+  <meta name="twitter:title"       content="Hire Anthony Vu — Tech Lead & Senior Full-Stack Engineer" />
+  <meta name="twitter:description" content="Available for hire: 8+ years full-stack, AI, automation & DevOps. Remote-friendly. Open to full-time, part-time & contract." />
   <meta name="twitter:image"       content="https://tamanhvu.dev/og-image.png" />
 
   <!-- JSON-LD Structured Data -->
@@ -34,6 +34,7 @@
     "@type": "Person",
     "name": "Anthony Vu",
     "jobTitle": "Tech Lead & Senior Full-Stack Engineer",
+    "description": "Senior full-stack engineer and tech lead available for hire. 8+ years of experience in React, Node.js, TypeScript, Python, AI integration, DevOps, and engineering team leadership. Open to remote, full-time, part-time, and contract opportunities worldwide.",
     "url": "https://tamanhvu.dev/",
     "email": "anh.vutam.developer@gmail.com",
     "address": {
@@ -45,7 +46,28 @@
       "https://github.com/TamAnh0311",
       "https://linkedin.com/in/tamanhvu"
     ],
-    "knowsAbout": ["Tech Lead","Software Engineering","Full-Stack Development","React","Node.js","TypeScript","Python","PostgreSQL","Docker","AI Integration","Automation Testing","DevOps","CI/CD","LLM Integration"]
+    "knowsAbout": [
+      "Tech Lead","Software Engineering","Full-Stack Development",
+      "React","Vue.js","Node.js","TypeScript","Python",
+      "PostgreSQL","Docker","Kubernetes","AWS",
+      "AI Integration","LLM Integration","Automation Testing",
+      "DevOps","CI/CD","Microservices","Team Leadership"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Tech Lead & Senior Full-Stack Engineer",
+      "occupationLocation": {
+        "@type": "Country",
+        "name": "Vietnam"
+      },
+      "estimatedSalary": {
+        "@type": "MonetaryAmountDistribution",
+        "name": "base",
+        "currency": "USD",
+        "duration": "P1Y"
+      },
+      "skills": "React, Vue.js, Node.js, TypeScript, Python, PostgreSQL, Docker, Kubernetes, AWS, AI Integration, DevOps, CI/CD, Team Leadership"
+    }
   }
   </script>
 
@@ -389,7 +411,7 @@
       font-family: var(--serif);
       font-style: italic;
       font-size: clamp(.9rem, 1.6vw, 1.25rem);
-      color: var(--cream3);
+      color: var(--cream2);
       letter-spacing: .02em;
       margin-bottom: 1.2rem;
       opacity: 0;
@@ -439,7 +461,7 @@
     .strip-val {
       font-family: var(--serif);
       font-size: .97rem;
-      color: var(--cream2);
+      color: var(--cream);
       font-style: italic;
     }
     .strip-btns { display: flex; gap: .75rem; flex-wrap: wrap; }
@@ -636,6 +658,7 @@
       border: 1px solid var(--rule);
       padding: 1.4rem 1.6rem;
       position: relative;
+      flex-shrink: 0;
     }
     .ai-terminal::before {
       content: '● ● ●';
@@ -691,7 +714,9 @@
       #ai-band { padding: 0 1.5rem; }
       .ai-inner { grid-template-columns: 1fr; }
       .ai-left { border-right: none; border-bottom: 1px solid var(--rule); padding: 4rem 0; }
-      .ai-right { padding: 3rem 0 4rem; }
+      .ai-right { padding: 3rem 0 4rem; flex-shrink: 0; }
+      .ai-caps  { flex-shrink: 0; }
+      .ai-terminal { height: 20vh; overflow: hidden; }
     }
 
     /* ── SKILLS ─────────────────────────────────────────── */
@@ -927,7 +952,7 @@
     .contact-sub {
       font-size: 1rem;
       line-height: 1.85;
-      color: var(--cream3);
+      color: var(--cream2);
       max-width: 42ch;
       margin-bottom: 2.5rem;
     }
@@ -963,7 +988,7 @@
     }
     .contact-link-val {
       font-size: .9rem;
-      color: var(--cream3);
+      color: var(--cream2);
     }
     .contact-link-val a,
     .contact-visit-link {
@@ -1129,6 +1154,7 @@
       padding: 2rem 2.5rem 2.5rem;
       scrollbar-width: thin;
       scrollbar-color: rgba(45,212,175,.2) transparent;
+      -webkit-overflow-scrolling: touch;
     }
     /* stagger-in children */
     .modal-body > * {
@@ -1183,8 +1209,12 @@
     .modal-field-label {
       font-family: var(--mono); font-size: .5rem;
       letter-spacing: .22em; text-transform: uppercase;
-      color: var(--cream3); margin-bottom: .45rem;
+      color: var(--cream2); margin-bottom: .45rem; margin-top: 1.4rem;
+      display: block;
     }
+    .modal-kicker + .modal-field-label,
+    .modal-title + .modal-field-label,
+    .modal-meta + .modal-field-label { margin-top: 0; }
     .modal-textarea {
       width: 100%; display: block;
       font-family: var(--serif); font-size: .93rem;
@@ -1197,6 +1227,14 @@
     .modal-textarea.mono {
       font-family: var(--mono); font-size: .72rem;
       letter-spacing: .05em; line-height: 1.9;
+    }
+    .modal-desc {
+      display: block;
+      font-family: var(--serif); font-size: .93rem;
+      line-height: 1.8; color: var(--cream2);
+      background: var(--ink2); border: 1px solid var(--rule);
+      padding: .85rem 1rem;
+      margin-bottom: 1.5rem;
     }
     /* tech stack tags inside modal */
     .modal-stack {
@@ -1252,6 +1290,12 @@
       border-radius: 2px;
     }
     .modal-x:hover { border-color: var(--blue-g); color: #fff; background: rgba(14,138,110,.25); }
+
+    .modal-footer {
+      flex-shrink: 0;
+      padding: .6rem 2.5rem 1.2rem;
+      border-top: 1px solid var(--rule);
+    }
 
     /* ── HEXAGON HOVER ON PROJECT ROWS ───────────────────── */
     .project {
@@ -1329,6 +1373,15 @@
       .trust-item:first-child { border-top: 1px solid var(--rule); }
     }
 
+    /* ── TOUCH / NO-HOVER DEVICES ──────────────────────── */
+    @media (hover: none) and (pointer: coarse) {
+      body, a, button, .project, .project.clickable,
+      .nav-burger, .btn-solid, .btn-outline, .bio-link,
+      #proj-search-clear, .proj-page-btn, .modal-cta,
+      .modal-close-btn, .modal-x { cursor: auto; }
+      #cur-dot, #cur-ring { display: none; }
+    }
+
     /* ── RESPONSIVE ─────────────────────────────────────── */
     @media (max-width: 1024px) {
       .about-layout { grid-template-columns: 220px 1fr; gap: 4rem; }
@@ -1352,6 +1405,44 @@
       .project { grid-template-columns: 3rem 1fr; gap: 1.5rem; }
       .project-arrow { display: none; }
       footer { padding: 1.2rem 1.5rem; flex-direction: column; align-items: flex-start; }
+
+      /* modal: true fullscreen slide-up on mobile */
+      #proj-overlay { padding: 0; align-items: stretch; }
+      #proj-modal {
+        width: 100%; height: 100dvh; max-height: 100dvh;
+        border: none; border-radius: 0; box-shadow: none;
+        transform: translateY(100%);
+      }
+      #proj-overlay.open #proj-modal { transform: translateY(0); }
+      /* shrink hex header to save vertical space */
+      .modal-hex-wrap { height: 72px; }
+      /* body: consistent 1.25rem gutter, scrolls freely */
+      .modal-body {
+        padding: 1.25rem 1.25rem 0;
+        -webkit-overflow-scrolling: touch;
+      }
+      .modal-kicker { margin-bottom: .4rem; }
+      .modal-title { font-size: clamp(1.6rem, 7vw, 2.4rem); margin-bottom: .75rem; }
+      .modal-field-label { margin-top: 1.25rem; margin-bottom: .6rem; font-size: .65rem; color: var(--cream); }
+      .modal-kicker + .modal-field-label,
+      .modal-title  + .modal-field-label,
+      .modal-meta   + .modal-field-label { margin-top: 1.25rem; }
+      .modal-stack { margin-bottom: 1.25rem; }
+      /* description: pure inline span on mobile, no box */
+      .modal-desc {
+        display: inline;
+        background: none; border: none; padding: 0; margin: 0;
+        font-size: 1rem; line-height: 1.85;
+      }
+      /* footer pinned at bottom, same gutter */
+      .modal-footer { padding: 1rem 1.25rem 1.25rem; }
+      .modal-close-btn {
+        width: 100%; justify-content: center;
+        color: var(--cream); border-color: var(--cream2);
+        padding: .9rem;
+      }
+      .modal-cta { width: 100%; justify-content: center; padding: .9rem; }
+      .modal-actions { flex-direction: column; margin-bottom: 0; }
     }
     @media (max-width: 480px) {
       .hero-name { font-size: clamp(4.5rem, 20vw, 7rem); }
@@ -1620,6 +1711,7 @@
         <canvas id="modal-canvas"></canvas>
       </div>
       <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer" id="modal-footer"></div>
     </div>
   </div>
 
@@ -1792,15 +1884,17 @@
     })();
 
     /* ── CURSOR ──────────────────────────────── */
-    const dot  = document.getElementById('cur-dot');
-    const ring = document.getElementById('cur-ring');
-    let mx=0,my=0,rx=0,ry=0;
-    document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
-    (function animRing(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(animRing);})();
-    document.querySelectorAll('a,button,.project').forEach(el=>{
-      el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
-      el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
-    });
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      const dot  = document.getElementById('cur-dot');
+      const ring = document.getElementById('cur-ring');
+      let mx=0,my=0,rx=0,ry=0;
+      document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+      (function animRing(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(animRing);})();
+      document.querySelectorAll('a,button,.project').forEach(el=>{
+        el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+      });
+    }
 
     /* ── NAV ─────────────────────────────────── */
     function navToggle(){ document.body.classList.toggle('nav-open'); }
@@ -2235,9 +2329,10 @@
     })();
 
     /* ── PROJECT MODAL ENGINE ────────────────────────────── */
-    const modalOverlay = document.getElementById('proj-overlay');
-    const modalBody    = document.getElementById('modal-body');
-    const modalCanvas  = document.getElementById('modal-canvas');
+    const modalOverlay  = document.getElementById('proj-overlay');
+    const modalBody     = document.getElementById('modal-body');
+    const modalFooter   = document.getElementById('modal-footer');
+    const modalCanvas   = document.getElementById('modal-canvas');
     let modalRaf = null;
 
     /* Hexagon tessellation animation for modal header */
@@ -2308,25 +2403,27 @@
           (p.role   ? '<span class="modal-role">'+p.role+'</span>' : '')+
         '</div>' : '';
 
-      /* auto-size description textarea based on content length */
-      const descRows = Math.max(3, Math.ceil((p.desc||'').length / 72));
-
       const stackTagsHtml = p.tags.map(t=>'<span class="modal-stack-tag">'+t+'</span>').join('');
+      const descEscaped = (p.desc||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
       modalBody.innerHTML =
         '<div class="modal-kicker">Project '+num+timeStr+'</div>'+
         '<div class="modal-title">'+p.name+'</div>'+
         metaHtml+
         '<div class="modal-field-label">Description &amp; Responsibilities</div>'+
-        '<textarea class="modal-textarea" readonly rows="'+descRows+'">'+p.desc+'</textarea>'+
+        '<span class="modal-desc">'+descEscaped+'</span>'+
         '<div class="modal-field-label">Tech Stack</div>'+
         '<div class="modal-stack">'+stackTagsHtml+'</div>'+
-        '<div class="modal-actions">'+
-          (isLink ? '<a href="'+p.url+'" target="_blank" rel="noopener" class="modal-cta">Visit Project ↗</a>' : '')+
-          '<button class="modal-close-btn" onclick="closeModal()">Close ✕</button>'+
-        '</div>';
+        (isLink ? '<div class="modal-actions"><a href="'+p.url+'" target="_blank" rel="noopener" class="modal-cta">Visit Project ↗</a></div>' : '');
+
+      modalFooter.innerHTML =
+        '<button class="modal-close-btn" onclick="closeModal()">Close ✕</button>';
 
       modalBody.querySelectorAll('a,button').forEach(el=>{
+        el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+      });
+      modalFooter.querySelectorAll('button').forEach(el=>{
         el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
         el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
       });
@@ -2340,6 +2437,7 @@
       modalOverlay.classList.remove('open');
       document.body.style.overflow = '';
       if(modalRaf){ cancelAnimationFrame(modalRaf); modalRaf=null; }
+      modalFooter.innerHTML = '';
     }
 
     function handleOverlayClick(e){
@@ -2347,6 +2445,38 @@
     }
 
     document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
+
+    /* ── SECTION KEYBOARD NAVIGATION (↑ / ↓) ───────────── */
+    (function(){
+      const sectionIds = ['hero','about','skills','projects','contact'];
+      const sections   = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+      let scrolling    = false;
+
+      function currentIndex(){
+        const mid = window.innerHeight / 2;
+        let best = 0, bestDist = Infinity;
+        sections.forEach((s, i) => {
+          const rect = s.getBoundingClientRect();
+          const dist = Math.abs(rect.top + rect.height / 2 - mid);
+          if(dist < bestDist){ bestDist = dist; best = i; }
+        });
+        return best;
+      }
+
+      document.addEventListener('keydown', e => {
+        if(e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+        if(scrolling) return;
+        if(modalOverlay.classList.contains('open')) return;
+        e.preventDefault();
+        const idx  = currentIndex();
+        const next = e.key === 'ArrowDown' ? Math.min(idx + 1, sections.length - 1)
+                                           : Math.max(idx - 1, 0);
+        if(next === idx) return;
+        scrolling = true;
+        sections[next].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(() => { scrolling = false; }, 800);
+      });
+    })();
 
     /* ── HEXAGON HOVER ON PROJECT ROWS ───────────────────── */
     function attachHexHover(el){
